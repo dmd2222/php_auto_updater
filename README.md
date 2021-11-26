@@ -7,4 +7,7 @@
 
 
 TO DO:
-GET IT NICE AND WORKING
+-GET IT NICE AND WORKING
+
+Done:
+-61Sekunden delertation eingebaut.
