@@ -7,6 +7,11 @@
 //Check first wheter tried to update this day
 //######################################################################
 
+//Load Path
+define('PROJECT_ROOT', __DIR__);
+
+
+
 //Options
 $file_name =PROJECT_ROOT . "/auto_update_timestamp.txt";
 
