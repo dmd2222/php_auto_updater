@@ -1,7 +1,6 @@
 <?php
 
 
-//Version 1.0.0.1
 
 
 //Check first wheter tried to update this day
