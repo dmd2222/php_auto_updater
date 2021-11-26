@@ -50,7 +50,7 @@ $target_directory =  PROJECT_ROOT;        // The root directory of the projects 
 if ($target_directory == "PROJECT_ROOT"){$target_directory = realpath(__DIR__ . '/..') . "/";}
 //$target_directory="../";
 $target_directory=__DIR__;
-print_r(scandir($target_directory));
+//print_r(scandir($target_directory));
 echo("target_directory:" . $target_directory);
 
 $write_output = true;             // Should the steps performed be written into $write_output_file
