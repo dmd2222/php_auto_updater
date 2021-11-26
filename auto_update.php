@@ -106,9 +106,6 @@ if($use_own_gui) {
   if(!$hasaction){
 
 
-    echo(filemtime($write_output_file)+60);
-    echo("******");
-    echo(time());
     if(filemtime($write_output_file)+60 < time()){
       CheckCommits($user,$repo,$do_update,$target_directory);
     }
