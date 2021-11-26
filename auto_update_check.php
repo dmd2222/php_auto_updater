@@ -39,7 +39,8 @@ if ($information + (61) < $timestamp_now){
         $url=substr($url, 0, -strlen(basename($_SERVER['PHP_SELF']))) ;
 
         $url .= "auto_update.php";
-        echo ($url);
+        //echo ($url);
+        //Create Iframe
         echo("<iframe src='" . $url . "' width='1px' height='1px' style='border:1px solid black;'></iframe>");
         
         //Hint
