@@ -35,8 +35,8 @@
 /**
  * General and Repository-Settings
  */
-$user = "schnoog";                // The Github user which owns the repository https://github.com/schnoog/
-$repo = "testrepo";               // The repository name https://github.com/schnoog/php_github_updater
+$user = "dmd2222";                // The Github user which owns the repository https://github.com/schnoog/
+$repo = "php_auto_updater";               // The repository name https://github.com/schnoog/php_github_updater
 $branch = "";                     // the branch (keep empty to use the default branch)
 $do_update = true;                // Should updates be applied
 $target_directory = __DIR__;      // The root directory of the projects local installation __DIR__ if this script is placed along the other files
