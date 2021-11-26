@@ -97,7 +97,18 @@ if($use_own_gui) {
   
   ShowGUI();
 }else{
-  if(!$hasaction)  CheckCommits($user,$repo,$do_update,$target_directory);
+  if(!$hasaction){
+
+
+    echo(filemtime($write_output_file)+60);
+    echo("******");
+    echo(date());
+    if(filemtime($write_output_file)+60 < date()){
+      CheckCommits($user,$repo,$do_update,$target_directory);
+    }
+
+
+  }  
 }
 /**
  * 
