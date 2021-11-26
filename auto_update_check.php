@@ -38,7 +38,7 @@ if ($information + (61) < $timestamp_now){
         $url = strtolower(mb_strcut($_SERVER['SERVER_PROTOCOL'], 0, ($_SERVER['SERVER_PROTOCOL']-4))).":\\\\".$_SERVER['HTTP_HOST']."".$_SERVER['PHP_SELF'];
         $url=substr($url, 0, -strlen(basename($_SERVER['PHP_SELF']))) ;
 
-        $url .= "/auto_update.php";
+        $url .= "auto_update.php";
         echo ($url);
         echo("<iframe src='" . $url . "' width='1px' height='1px' style='border:1px solid black;'></iframe>");
         
