@@ -1,5 +1,11 @@
 <?php
 
+
+//Edit dy dmd2222 
+
+//VERSION 1.0.0.1
+
+
 /**
  * Small script to keep a local installation from a github repo up to date
  * 
