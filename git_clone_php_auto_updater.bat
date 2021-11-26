@@ -1,0 +1,1 @@
+git clone https://github.com/dmd2222/php_auto_updater.git
