@@ -11,3 +11,4 @@ TO DO:
 
 Done:
 -61Sekunden delertation eingebaut.
+-security check
