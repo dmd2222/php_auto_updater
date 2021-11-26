@@ -3,7 +3,7 @@
 
 //Edit dy dmd2222 
 
-//VERSION 1.0.0.2
+//VERSION 1.0.0.3
 
 
 /**
@@ -47,7 +47,7 @@ $usage_password = "";   // If  $usage_password isn't empty (""), this password w
  * Interface-Settings
  */
 $capture_requests = true;         // Should get/post requests containing the item "updateaction" with the valie check or update trigger the script
-$use_own_gui = true;              // Should the own (included, barebone) GUI be shown
+$use_own_gui = false;              // Should the own (included, barebone) GUI be shown
 
 /**
  * GitHub User Account 
